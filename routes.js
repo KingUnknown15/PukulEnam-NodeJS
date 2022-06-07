@@ -12,4 +12,9 @@ router.get("/abstract",function(req,res){
     res.render("abstract")
 });
 
+router.get("/newsscrapper",function(req,res){
+    console.log("Newsscrapper Page");
+    res.render("newsscrapper")
+});
+
 module.exports = router;
