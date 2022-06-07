@@ -17,4 +17,9 @@ router.get("/mksa",function(req,res){
     res.render("mksa")
 });
 
+router.get("/newsscrapper",function(req,res){
+    console.log("Newsscrapper Page");
+    res.render("newsscrapper")
+});
+
 module.exports = router;
