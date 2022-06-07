@@ -12,4 +12,14 @@ router.get("/abstract",function(req,res){
     res.render("abstract")
 });
 
+router.get("/convert",function(req,res){
+    console.log("convert page");
+    res.render("convert")
+});
+
+router.get("/t5",function(req,res){
+    console.log("t5 Tokenization page");
+    res.render("t5")
+});
+
 module.exports = router;
