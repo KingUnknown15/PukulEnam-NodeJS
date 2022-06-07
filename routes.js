@@ -21,5 +21,14 @@ router.get("/t5",function(req,res){
     console.log("t5 Tokenization page");
     res.render("t5")
 });
+router.get("/mksa",function(req,res){
+    console.log("MKSA Page");
+    res.render("mksa")
+});
+
+router.get("/newsscrapper",function(req,res){
+    console.log("Newsscrapper Page");
+    res.render("newsscrapper")
+});
 
 module.exports = router;
