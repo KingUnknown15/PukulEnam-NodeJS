@@ -12,4 +12,9 @@ router.get("/abstract",function(req,res){
     res.render("abstract")
 });
 
+router.get("/mksa",function(req,res){
+    console.log("MKSA Page");
+    res.render("mksa")
+});
+
 module.exports = router;
